@@ -121,5 +121,5 @@ $(document).ready(function () {
 
     // Apply select2 to any select boxes that dont yet have it
     const noSelect2 = '.select2-hidden-accessible, .selectfilter, .selector-available select, .selector-chosen select';
-    $('select').not(noSelect2).select2({ dropdownAutoWidth: true });
+    $('select').not(noSelect2).select2({ width: '100%', theme: "classic" });
 });
